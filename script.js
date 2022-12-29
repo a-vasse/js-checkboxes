@@ -11,6 +11,7 @@ inbox.innerHTML = data.map(function (datas) {
 }).join('');
 
 const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
+
 let lastChecked;
 
 function handleCheck (event) {
