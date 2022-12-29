@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
 html {
-  font-family: sans-serif;
-  background: #ffc600;
+  font-family: 'Fira Sans', sans-serif;
+  background: #1cacff;
+}
+
+h1 {
+  text-align: center;
+  color: white;
 }
 
 .inbox {
@@ -35,7 +42,6 @@ p {
   padding: 20px;
   transition: background 0.2s;
   flex: 1;
-  font-family:'helvetica neue';
   font-size: 20px;
   font-weight: 200;
   border-left: 1px solid #D1E2FF;
